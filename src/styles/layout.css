@@ -1,0 +1,29 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.page > * {
+  display: flex;
+  flex: 0 0 49%;
+  margin-right: 0.5%;
+  margin-top: 0.5rem;
+}
+
+.module {
+  display: flex;
+  align-items: center;
+}
+
+.module > * {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+}

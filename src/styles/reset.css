@@ -1,0 +1,27 @@
+html {
+  font-size: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: 1s all ease-in-out;
+  outline: none;
+}
+
+body,
+input,
+button {
+  font-family: var(--body-font), sans-serif;
+}

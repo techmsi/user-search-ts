@@ -1,0 +1,20 @@
+.user {
+  border: 1px solid var(--brand-gray);
+  background-color: var(--brand-white);
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.user .avatar {
+  border-right: 5px solid var(--brand-black);
+  margin-right: 0.5rem;
+}
+
+.user .name {
+  text-transform: capitalize;
+}
+
+.user .email {
+  font-size: 0.85rem;
+  color: var(--brand-dark-gray);
+}

@@ -1,0 +1,23 @@
+.app {
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .page {
+    flex-direction: column;
+  }
+  .page > * {
+    flex-basis: 100%;
+  }
+  .user {
+    min-width: 20rem;
+  }
+  .email {
+    font-size: 1rem;
+  }
+}

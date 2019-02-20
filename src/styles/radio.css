@@ -1,0 +1,22 @@
+.gender-choice strong {
+  padding: 0 0.25rem;
+  text-decoration: underline;
+}
+
+.choice ~ span {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.choice ~ span svg {
+  font-size: 4rem;
+}
+
+.choice.female:checked ~ span svg {
+  fill: var(--female-svg);
+}
+
+.choice.male:checked ~ span svg {
+  fill: var(--male-svg);
+}

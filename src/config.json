@@ -1,0 +1,8 @@
+{
+  "base": "https://randomuser.me/api/",
+  "baseParams": {
+    "results": 6,
+    "nat": "US",
+    "inc": "gender,name,email,picture,login"
+  }
+}
